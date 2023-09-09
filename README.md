@@ -1,6 +1,6 @@
 ## Jobs API
 
-Job curd API with authentication system such as register, login and logout. Custom validation, duplicate email validation. Included security system and lastly hosting the app on render.com
+Job curd API with authentication systems such as register, login, and logout. Custom validation and duplicate email validation included a security system, and lastly, hosted the app on render.com.
 
 ## Functionalities
 
@@ -30,13 +30,10 @@ Job curd API with authentication system such as register, login and logout. Cust
 
 ## setup the app
 
-setup the app
-
-clone or feth the app
-
-cd jobs-api-node
-
-npm start
+--setup the app
+--clone or fetch the app
+--cd jobs-api-node
+--npm start
 
 ## API Reference for Auth
 
