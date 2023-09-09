@@ -62,8 +62,6 @@ const logout = async (req, res, next) => {
 
     await newBlacklist.save();
 
-    // await Blacklist.create({ token });
-
     res.status(200).json({
       status: "success",
       message: "Logged out successfully",
