@@ -1,26 +1,65 @@
+## Jobs API
 
-### Job API
+Job curd API with authentication system such as register, login and logout. Custom validation, duplicate email validation. Included security system and lastly hosting the app on render.com
 
-Job curd API with authentication system such as register, login and logout. Custom validation, duplicate email validation. Inclueded security system and lastly hosting the app on render.com
+## Functionalities
 
+--Register
+--login
+--logout
+--JWT Token
 
+### Mongoose Validation
 
-### Functionalities
-  --Register
-  --login
-  --logout
-  --JWT Token
+--Validation Errors
+--Duplicate Error(email)
+--casting Error
 
+### security
 
-  ### Mongoose Validation
-  --Validation Errors
-  --Duplicate Error(email)
-  --casting Error
+--helmet
+--cors
+--xss-clean
+--express-rate-limit
 
-  
-  ### security
-  --helmet
-  --cors
-  --xss-clean
-  --express-rate-limit
+## setup the app
 
+--clone or fetch the app
+--cd jobs-api-node
+--npm start
+
+## setup the app
+
+setup the app
+
+clone or fetch the app
+
+cd jobs-api-node
+
+npm start
+
+## API Reference
+
+#### Register API
+
+```http
+ Methods => POST
+  http://400api/v1/auth/register
+```
+
+#### Login API
+
+```http
+ Methods => POST
+  http://400api/v1/auth/login
+```
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+![Logo](register-api.png)
