@@ -32,48 +32,34 @@ Job curd API with authentication system such as register, login and logout. Cust
 
 setup the app
 
-clone or fetch the app
+clone or feth the app
 
 cd jobs-api-node
 
 npm start
 
-## API Reference
+## API Reference for Auth
 
 #### Register API
 
 ```http
  Methods => POST
-  http://400api/v1/auth/register
+  https://jobs-api-node-40v5.onrender.com/api/v1/auth/register
 ```
 
 #### Login API
 
 ```http
  Methods => POST
-<<<<<<< HEAD
-  http://400api/v1/auth/login
+ https://jobs-api-node-40v5.onrender.com/api/v1/auth/login
 ```
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-# ![Logo](register-api.png)
-
-https://jobs-api-node-40v5.onrender.com/api/v1/auth/login
-
-````
 ### Logout API
 
 ```http
  Methods => POST
  https://jobs-api-node-40v5.onrender.com/api/v1/auth/logout
-````
+```
 
 ## API Reference for Jobs
 
@@ -84,12 +70,12 @@ https://jobs-api-node-40v5.onrender.com/api/v1/auth/login
 
 ## Check API in Local Machine
 
-localhost:4000/
-
-## Authors
-
-- [@octokatherine](https://www.github.com/KaziHasin)
+       localhost:4000/
 
 ## host URL
 
 https://jobs-api-node-40v5.onrender.com/
+
+## Authors
+
+- [@octokatherine](https://www.github.com/KaziHasin)
