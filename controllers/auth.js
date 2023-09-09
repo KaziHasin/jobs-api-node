@@ -1,11 +1,13 @@
 const User = require("../models/User");
 const Blacklist = require("../models/Blacklist");
 const bcrypt = require("bcryptjs");
+const mongoose = require("mongoose");
+
 const CustomAPIError = require("../errors/custom-error");
 const handleMongoError = require("../errors/mongo-error");
 const register = async (req, res, next) => {
   try {
-    const user = await User.create(req.body);
+    const user = await mongoose.model("User").create(req.body);
     const token = user.createJwt();
 
     res.status(201).json({
