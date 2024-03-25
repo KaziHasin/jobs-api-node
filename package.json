@@ -22,7 +22,7 @@
     "mongoose": "^7.4.4"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
